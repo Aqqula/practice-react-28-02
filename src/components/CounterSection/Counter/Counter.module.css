@@ -1,0 +1,25 @@
+.container {
+  text-align: center;
+  width: 400px;
+  align-items: center;
+  margin: auto;
+  padding: 1em;
+  background-color: palevioletred;
+  color: antiquewhite;
+}
+.btn {
+  color: palevioletred;
+  background-color: antiquewhite;
+  border: none;
+  padding: 1em;
+  margin: 10px;
+  border-radius: 15px;
+}
+.input {
+  color: palevioletred;
+  background-color: antiquewhite;
+  border: none;
+  padding: 1em;
+  margin: 10px;
+  border-radius: 15px;
+}

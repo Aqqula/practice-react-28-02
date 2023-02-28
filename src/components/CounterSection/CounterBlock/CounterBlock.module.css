@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  width: 500px;
+  align-items: center;
+  margin: auto;
+  padding: 1em;
+  background-color: rgb(250, 156, 188);
+  color: antiquewhite;
+}
+.p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.input {
+  color: palevioletred;
+  background-color: antiquewhite;
+  border: none;
+  padding: 1em;
+  margin: 10px;
+  border-radius: 15px;
+}
+.btn {
+  color: palevioletred;
+  background-color: antiquewhite;
+  border: none;
+  padding: 1em;
+  margin: 10px;
+  border-radius: 15px;
+}
