@@ -1,0 +1,26 @@
+@use "/src/common/styles/color" as colors;
+@use "/src/common/styles/template" as *;
+@use "/src/common/styles/mixin" as mx;
+
+.container {
+  text-align: center;
+  width: 500px;
+  align-items: center;
+  margin: auto;
+  padding: 1em;
+  background-color: rgb(250, 156, 188);
+  color: colors.$color-text;
+}
+.p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.input {
+  color: colors.$color-main;
+  background-color: colors.$color-text;
+  @extend %standard_wrapper;
+  @include mx.border-radius(15px);
+}
+.btn {
+  @extend .standard_btn;
+}

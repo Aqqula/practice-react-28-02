@@ -1,0 +1,14 @@
+@use "/src/common/styles/color" as colors;
+
+.standard_btn {
+  color: colors.$color-main;
+  background-color: colors.$color-text;
+  border: none;
+  padding: 1em;
+  margin: 10px;
+  border-radius: 15px;
+}
+%standard_wrapper {
+  padding: 1em;
+  margin: 10px;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Counter from "../Counter";
-import styles from "./CounterBlock.module.css";
+import styles from "./CounterBlock.module.scss";
 
 const minStep = 1;
 const maxStep = 1000000;

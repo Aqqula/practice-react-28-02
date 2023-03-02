@@ -1,0 +1,4 @@
+@mixin border-radius($br) {
+  border: none;
+  border-radius: $br;
+}

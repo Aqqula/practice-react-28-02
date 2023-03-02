@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import styles from "./Counter.module.css";
+import styles from "./Counter.module.scss";
 
 const minMS = 1000;
 const maxMS = 5000;
