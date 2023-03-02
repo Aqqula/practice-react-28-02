@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import styles from "./Counter.module.css";
 
 const minMS = 1000;
@@ -41,10 +42,7 @@ class Counter extends Component {
   };
 
   autoClick = () => {
-    this.setState((state, props) => {
-      const newCount = state.count + props.step;
-      return { count: newCount };
-    });
+    this.handleCalcCount();
   };
 
   start = () => {
@@ -112,5 +110,13 @@ class Counter extends Component {
     );
   }
 }
+
+Counter.defaultProps = {
+  step: 1,
+};
+
+Counter.propTypes = {
+  step: PropTypes.number.isRequired,
+};
 
 export default Counter;
